@@ -9,6 +9,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #BBFF00;
+}
+
 h1 {
     font-size: 2.5em;
     font-weight: 700;
@@ -23,7 +32,11 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    background-color: #f5f5f5;
+    background-color: #121718;
+}
+
+#logo {
+    width: 55px;
 }
 
 header ul {
@@ -48,27 +61,48 @@ header ul {
     text-align: left;
     line-height: 25px;
     border-right: solid 1px;
+    background-color: #121718;
 }
 
 .projectsMenu h2 {
-    padding-bottom: 10px;
+    color:#BBFF00;
+    padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 20px;
 }
 
+.projectsMenu a {
+    text-decoration: none;
+}
+
 .projectsMenu li {
+    text-decoration: none;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
 }
 
 .workSection {
+    color: #121718;
+    background-color: #BBFF00;
     line-height: 25px;
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.workSection a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+hr {
+    border: solid 0.5px;
 }
 
 .workSection h2 {
     padding-bottom: 10px;
+    font-weight: 700;
 }
 
 .workSection hr {
@@ -76,7 +110,13 @@ header ul {
     width: 100%;
 }
 
+.workSection h3 {
+    margin: 10px auto;
+}
+
 .education {
+    background-color: #121718;
+    color: white;
     text-align: left;
     border-left: solid 1px;
     padding-left: 20px;
@@ -85,7 +125,8 @@ header ul {
 }
 
 .education h2 {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    color:#BBFF00;
 }
 
 .education li {
@@ -103,6 +144,7 @@ header ul {
 }
 
 #reviewsTeachers {
+    
     display: flex;
     flex-wrap: wrap;
     border-top: solid 1px;
@@ -114,32 +156,39 @@ header ul {
 
 #reviewsTeachers h2 {
     width: 100%;
-    padding: 50px;
+    padding: 50px 20px 50px 20px;
     text-align: center;
 }
 
 .reviewCard {
+
+    background-color:#121718;
     width: 25%;
     padding: 20px;
-    border: solid 1px;
+    border: solid 3px;
     border-radius: 10px;
     text-align: center;
 }
 
 .reviewText {
-    font-style: italic;
+    
+    font-weight:lighter;
     padding-bottom: 10px;
-    max-width: 100%
+    max-width: 100%;
+    color: white;
 }
 
 .nameProfession {
-    font-weight: bold;
+    font-weight: lighter;
+    color:#BBFF00
 }
 
 footer {
     margin-top: 50px;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color:#121718;
+    color: white;
+    font-weight:300;
 }
 
 @media (max-width: 768px) {
@@ -155,8 +204,6 @@ footer {
     #aboutMe {
         display: grid;
         grid-template-columns: 100%;
-        padding: 30px;
-        gap: 30px;
         background-color: #f5f5f5;
         width: 100%;
         text-align: center;
@@ -188,7 +235,7 @@ footer {
     .reviewCard {
         width: 100%;
         padding: 20px;
-        border: solid 1px;
+        border: solid 3px;
         border-radius: 10px;
         text-align: center;
     }
@@ -198,5 +245,9 @@ footer {
         padding-bottom: 10px;
         max-width: 100%;
         text-align: center;
+    }
+
+    #logo {
+        padding-bottom: 20px;
     }
 }
