@@ -46,7 +46,7 @@ header ul {
 
 .heroArea {
     padding: 100px 10px 100px 10px;
-    border-bottom: solid 1px;
+   
     width: 100%;
 }
 
@@ -60,7 +60,6 @@ header ul {
 .projectsMenu {
     text-align: left;
     line-height: 25px;
-    border-right: solid 1px;
     background-color: #121718;
 }
 
@@ -88,6 +87,8 @@ header ul {
     line-height: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .workSection a {
@@ -118,7 +119,6 @@ hr {
     background-color: #121718;
     color: white;
     text-align: left;
-    border-left: solid 1px;
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 20px;
@@ -147,7 +147,7 @@ hr {
     
     display: flex;
     flex-wrap: wrap;
-    border-top: solid 1px;
+   
     padding: 10px 20px 20px 20px;
     width: 100%;
     justify-content: center;
