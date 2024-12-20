@@ -1,5 +1,7 @@
-# Basic Html Website - Understanding HTML Structure.
-Pratice project proposed by Roadmap.sh to understand better how HTML structures work.<br>
+# Personal Portfolio
+
+Convert the previous simple HTML website into a personal portfolio.
+<br>
 You can see the page by clicking in the link below.
 
 <a href="https://alexgmblt.github.io/Personal-Portfolio/">Preview Page</a>
