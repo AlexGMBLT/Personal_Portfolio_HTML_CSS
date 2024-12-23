@@ -1,5 +1,5 @@
 # Personal Portfolio Website - Created using only HTML and CSS.
-Pratice project proposed by Roadmap.sh to pratice html structure, responsiveness and css styling by creating a real project.<br>
+Pratice project proposed by Roadmap.sh to pratice html structure, responsiveness and css styling by creating a real project.<br><br>
 It's a layout reproduction given by the challenge, check out their project page to check it out.
 
 <a href="https://alexgmblt.github.io/Personal-Portfolio/">See the Page Here</a>
