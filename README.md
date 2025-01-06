@@ -2,7 +2,7 @@
 Pratice project proposed by Roadmap.sh to pratice html structure, responsiveness and css styling by creating a real project.<br><br>
 It's a layout reproduction given by the challenge, check out their project page to check it out.
 
-<a href="https://alexgmblt.github.io/Personal-Portfolio/">See the Page Here</a>
+<a href="https://alexgmblt.github.io/Personal-Portfolio/](https://alexgmblt.github.io/Personal_Portfolio_HTML_CSS">See the Page Here</a>
 
 Project proposed by https://roadmap.sh/projects/portfolio-website.<br>
 
